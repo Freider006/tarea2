@@ -10,7 +10,7 @@
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
   <!-- Enlace al archivo CSS -->
-  <link rel="stylesheet" href="arcoiris.css">
+  <link rel="stylesheet" href="donas.css">
 </head>
 
 <body>
@@ -56,3 +56,4 @@
 </body>
 
 </html>
+
