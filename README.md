@@ -1,1 +1,58 @@
-# tarea2
+<!DOCTYPE html> 
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freider's Donuts</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="arcoiris.css">
+</head>
+
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Freider's Donuts 🍩</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <h1 class="mt-4">🍩 ¡Las Donuts Más Deliciosas! 🍩</h1>
+    <p>Prueba nuestras donuts recién horneadas, con los mejores ingredientes y sabores únicos.</p>
+
+    <!-- Imagen -->
+    <img src="donas.png" alt="Deliciosas Donuts" class="donut-img">
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="footer bg-dark text-center text-white py-4">
+    <p>&copy; 2025 Freider's Donuts. Todos los derechos reservados.</p>
+    <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="text-warning fs-4"><i class="bi bi-tiktok"></i></a>
+        <a href="#" class="text-warning fs-4"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-warning fs-4"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
