@@ -1,3 +1,4 @@
+<!---
 <!DOCTYPE html> 
 <html lang="es">
 
@@ -38,7 +39,7 @@
     <p>Prueba nuestras donuts recién horneadas, con los mejores ingredientes y sabores únicos.</p>
 
     <!-- Imagen -->
-    <img src="donas.png" alt="Deliciosas Donuts" class="donut-img">
+    <img src="https://numpaint.com/wp-content/uploads/2021/02/doughnuts-paint-by-numbers-510x639.jpg"class="img-fluid" alt="test">
   </div>
 
   <!-- Pie de página -->
@@ -56,4 +57,55 @@
 </body>
 
 </html>
+--->
+/* Fondo degradado llamativo */
+body {
+    background: linear-gradient(135deg, #ff4081, #ffeb3b, #03a9f4, #4caf50);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #ff1f1f;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  /* Contenido */
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Imagen de las donuts */
+  .donut-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Pie de página */
+  .footer {
+    background-color: #333;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: white;
+  }
+  
+
+
 
